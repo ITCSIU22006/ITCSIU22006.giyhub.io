@@ -1,0 +1,125 @@
+	body {
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 100%;
+            width: 1000px;
+            margin: 1em auto;
+            padding: 1em 0;
+            border: 1px solid #8b0000;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(to right, #F0E68C, white, #F0E68C); /* Gradient background */
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            font-family: sans-serif; /* Use a generic sans-serif font */
+        }
+
+        header img {
+            margin-right: 20px;
+            height: 100px; /* Adjust height as needed to fit the image */
+        }
+
+        header h2 {
+            font-size: 2em; /* Adjust font size to match the image */
+            color: #8b0000; /* Dark red color for the heading */
+            margin: 0;
+            font-weight: bold; /* Make the heading bold */
+        }
+
+        header h3 {
+            font-size: 1.2em; /* Adjust font size to match the image */
+            color: #8b0000; /* Dark red color for the subheading */
+            margin: 0;
+            font-weight: normal; /* Make the subheading normal weight */
+        }
+        .chose  {
+            background-color: #8b0000;
+            width: 100%; /* Full width */
+            text-align: center; /* Center align text */
+            padding: 10px 0; /* Padding for navigation */
+        }
+        .chose a {
+            color: white; /* White text for links */
+            text-decoration: none; /* No underline */
+            margin: 0 25px; /* Margin on left and right of links */
+            font-size: 2em; /* Font size for links */
+        }
+        .chose a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        
+        .red{
+            color: darkred;
+            font-size:22px;
+            
+        }
+        .blue{
+            color: blue;
+            text-decoration: underline;
+            font-size:18px;
+        }
+        main {
+            display: flex;
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        aside {
+            width: 1300px;
+            padding-right: 20px;
+        }
+
+        aside nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside nav li {
+            margin-bottom: 5px;
+        }
+
+        article {
+            flex-grow: 1;
+        }
+
+        article img {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #8b0000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .box{
+            border-top: 8px solid #8b0000;
+            border-bottom: 8px solid #8b0000;
+        }
+        article img {
+            float: right;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        .dropdown {
+	    weight: 300px;
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: white;
+        }
+        .dropdown-content a {
+            color: black;
+            display: block;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
